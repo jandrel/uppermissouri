@@ -23,6 +23,13 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
 
+  <!--Leaflet CSS-->
+  <link href="leaflet/leaflet.css">
+  <style>
+    #mapid { height: 180px; }
+  </style>
+
+  
 </head>
 
 <body id="page-top">
@@ -71,16 +78,7 @@
 
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
-      </div>
-    </div>
+         <div id="mapid"></div>
   </section>
 
   <!-- Services Section -->
@@ -257,6 +255,20 @@
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
 
+    <!-- Leaflet Script -->
+      <script src="leaflet/leaflet.js"></script>
+
+      <!-- Map SCript -->
+      <script type="text/javascript">
+        var map = L.map('mapid').setView([47.669, -113.853], 5);
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'jandrel/ck6e5vwc50lwg1irx5urodwvp',
+    accessToken: 'pk.eyJ1IjoiamFuZHJlbCIsImEiOiJjazM3amk5cHQwMDNrM25yejJkeHRkZHI4In0.SPT0_-93CZ1AcRkVB06hSQ'
+}).addTo(map);
+      </script>
+  
 </body>
 
 </html>
