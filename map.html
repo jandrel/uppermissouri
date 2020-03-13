@@ -19,7 +19,7 @@
   <style>
   body { margin:0; padding:0; }
   #map { position: absolute; top:0; bottom:0; right:0; left:0; }
-  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: white; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }
+  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: lightgray; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 20px; z-index: 800; }
  #mapid { height: 180px; }
   </style>
   
@@ -39,9 +39,9 @@
 
   /* Set up the map with initial center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT latitude, longitude to re-center map
-    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
-    scrollWheelZoom: false
+    center: [46.9454583,-112.6886088], // EDIT latitude, longitude to re-center map
+    zoom: 6,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: true
   });
 
   /* Control panel to display map layers */
