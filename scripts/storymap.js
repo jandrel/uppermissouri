@@ -91,10 +91,6 @@ $(window).on('load', function() {
         position: getSetting('_zoomControls')
       }).addTo(map);
     }
-
-    //  <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title"><a href="https://www.mappingtheuppermissouri.com">Return</a></div>
-  <div id="map"></div>
     
     var chapters = mapData.sheets(constants.chaptersSheetName).elements;
 
