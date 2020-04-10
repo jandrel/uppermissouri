@@ -92,6 +92,12 @@ $(window).on('load', function() {
       }).addTo(map);
     }
     
+    //Add easy button
+    L.easyButton('fa-globe', function(btn, map){
+    helloPopup.setLatLng(map.getCenter()).openOn(map);
+}).addTo(map);
+  }
+    
     var chapters = mapData.sheets(constants.chaptersSheetName).elements;
 
     var markers = [];
