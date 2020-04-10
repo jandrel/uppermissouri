@@ -36,11 +36,15 @@
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
-      center: [0, 0],
+      center: [-2, 2],
       zoom: 1,
       scrollWheelZoom: false,
       zoomControl: false
     });
+        L.easyButton('fa-globe', function(btn, map){
+    helloPopup.setLatLng(map.getCenter()).openOn(map);
+}).addTo(map);
+  }    
   </script>
 
   <script type="text/javascript" src="google-doc-url.js"></script>
