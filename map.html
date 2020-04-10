@@ -33,13 +33,6 @@
   <div class="loader">Loading...</div>
   <div id="map"></div>
   
-var htmlStar = L.map('html-star', {scrollWheelZoom: false}).setView([37.8, -96], 4);
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(htmlStar);
-
-L.easyButton( '<span class="star">&starf;</span>', function(){
-  alert('you just clicked the html entity \&starf;');
-}).addTo(htmlStar);
-  
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
       center: [0, 0],
