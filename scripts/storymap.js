@@ -284,7 +284,7 @@ $(window).on('load', function() {
     $('#contents').append(" \
       <div id='space-at-the-bottom'> \
         <a href='https://www.mappingtheuppermissouri.com/'>  \
-          <i class='fas fa-home'></i></br> \
+          <i class='fas fa-home fa-lg'></i></br> \
           <medium>Return Home</medium>  \
         </a> \
       </div> \
