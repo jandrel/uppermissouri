@@ -13,7 +13,7 @@ Media Container Height,300,"Maximum height of the image, in pixels. 200 is defau
 Pixels After Final Chapter,100,In pixels. At least 100,
 Credits,,,
 Author Name,Jen Andrella,"Appears in map credits as ""View data by..."" (or leave blank)",
-Organization Name,"Cultural Heritage Informatics inititive, Michigan State University",,
+Organization Name,"Cultural Heritage Informatics inititive, 2020, Michigan State University",,
 Author Email or Website,,Create link in Author Name by inserting your email or web address (or leave blank),
 Author GitHub Repo Link,,"Appears in map credits as ""View code..."" link (leave as-is OR insert link to your own GitHub code repo)",
 Code Credit,,,
