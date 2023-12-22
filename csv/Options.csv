@@ -3,7 +3,7 @@ Storymap Info,,,
 Storymap Title,Mapping the Upper Missouri ,,
 Storymap Subtitle,"Visualizing Negotiation, Diplomacy, and Culture on the Northern Plains, 1801-1853",,
 Map Settings,,,
-Basemap Tiles,Stamen.Terrain,Drop-down menu for background basemap tiles,https://leaflet-extras.github.io/leaflet-providers/preview/
+Basemap Tiles,stadia.stamenterrain,Drop-down menu for background basemap tiles,https://leaflet-extras.github.io/leaflet-providers/preview/
 Zoom Controls,bottomright,,
 Narrative Background Color,,,
 Narrative Text Color,,,
