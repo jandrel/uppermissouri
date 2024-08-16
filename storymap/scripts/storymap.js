@@ -395,9 +395,9 @@ $(window).on('load', function() {
 
       $('#contents').append(" \
       <div id='space-at-the-bottom'> \
-        <a href='#top'>  \
-          <i class='fa fa-chevron-up'></i></br> \
-          <small>Top</small>  \
+        <a href='https://wwww.mappingtheuppermissouri.com'>  \
+          <i class='fa fa-home'></i></br> \
+          <medium>Return to Project Site</medium>  \
         </a> \
       </div> \
     ");
