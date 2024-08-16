@@ -393,14 +393,14 @@ $(window).on('load', function() {
       }
     });
 
-      $('#contents').append(" \
-      <div id='space-at-the-bottom'> \
-        <a href='https://wwww.mappingtheuppermissouri.com'>  \
-          <i class='fa fa-home'></i></br> \
-          <medium>Return to Project Site</medium>  \
-        </a> \
-      </div> \
-    ");
+     $('#contents').append(" \
+  <div id='space-at-the-bottom'> \
+    <a href='https://www.mappingtheuppermissouri.com' style='color: black; text-decoration: none;'>  \
+      <i class='fa fa-home' style='font-size: 32px; color: black;'></i></br> \
+      <large style='color: black;'>Return to Project Site</large>  \
+    </a> \
+  </div> \
+");
 
     /* Generate a CSS sheet with cosmetic changes */
     $("<style>")
